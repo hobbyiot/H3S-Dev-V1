@@ -4492,12 +4492,6 @@
 		(uuid "4e054d28-9bf2-492d-9f40-6ee45c6df455")
 	)
 	(junction
-		(at 228.6 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a1f2184-10a9-4aa9-8cfc-c44a093293fb")
-	)
-	(junction
 		(at 68.58 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4520,6 +4514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72080caa-b810-4102-8618-2a1c36eecbe0")
+	)
+	(junction
+		(at 228.6 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b9d9b15-da1b-4d2e-a2d2-98de16b62b27")
 	)
 	(junction
 		(at 228.6 215.9)
@@ -4873,16 +4873,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 208.28) (xy 217.17 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4926853c-cc16-4411-8690-cb69fd23942e")
-	)
-	(wire
-		(pts
 			(xy 165.1 185.42) (xy 177.8 185.42)
 		)
 		(stroke
@@ -5040,6 +5030,16 @@
 			(type default)
 		)
 		(uuid "77d151d4-82a1-46fb-99ab-6476d584d9f4")
+	)
+	(wire
+		(pts
+			(xy 224.79 208.28) (xy 228.6 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784a4089-fef0-44b9-b359-a4188f22ddd1")
 	)
 	(wire
 		(pts
@@ -5273,16 +5273,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 208.28) (xy 228.6 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be848b1e-2e72-4ac8-bbe8-2fbea09e664f")
-	)
-	(wire
-		(pts
 			(xy 177.8 208.28) (xy 177.8 215.9)
 		)
 		(stroke
@@ -5400,6 +5390,16 @@
 			(type default)
 		)
 		(uuid "dfb9e798-e992-4f77-8998-298cc91e6b42")
+	)
+	(wire
+		(pts
+			(xy 214.63 208.28) (xy 217.17 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fd4e30-b4b2-4e5e-866b-6931eea3ceb1")
 	)
 	(wire
 		(pts
@@ -5796,7 +5796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 251.1552 215.9 0)
 			(effects
 				(font
@@ -6820,13 +6820,13 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 220.98 208.28 90)
+		(at 220.98 208.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a103092-d9ef-4917-81a6-cfc675c0d9fa")
 		(property "Reference" "L1"
 			(at 220.98 203.2 90)
@@ -8954,7 +8954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 186.3852 226.06 0)
 			(effects
 				(font
@@ -9703,7 +9703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.7352 226.06 0)
 			(effects
 				(font
