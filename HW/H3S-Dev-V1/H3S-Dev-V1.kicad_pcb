@@ -9697,8 +9697,8 @@
 		(layer "Margin")
 		(uuid "e87aa79f-8664-4d77-9ca0-1b6db21c4013")
 	)
-	(gr_text "H3S-Dev-V1"
-		(at 162.9 127.5 0)
+	(gr_text "(c) HobbyIoT\nH3S-Dev-V1\nHelium node\nMeshtastic node"
+		(at 183.5 118.6 0)
 		(layer "F.Mask")
 		(uuid "52a0c6b9-901c-48a4-9b07-1d35af1a1800")
 		(effects
@@ -9707,7 +9707,7 @@
 				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 	)
 	(segment
