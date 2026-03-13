@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:Ai-Thinker-Ra-01-LoRa"
-			(at 26.67 -11.43 0)
+		(property "Footprint" "H3S-Dev:Ra-01SH-P"
+			(at 20.066 -13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf"
+		(property "Datasheet" "https://en.ai-thinker.com/Uploads/file/20240927/20240927114430_30249.pdf"
 			(at -0.254 19.05 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ai-Thinker Ra-01SH-P 410-525 MHz LoRa Module, SPI interface, external antenna"
+		(property "Description" "Ai-Thinker Ra-01SH-P 803MHz~930MHz SX1262 LoRa Module, ultra long distance, SPI interface, external antenna"
 			(at -1.524 13.462 0)
 			(effects
 				(font
@@ -354,7 +354,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -6.35 180)
+				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "BUSY"
 					(effects
