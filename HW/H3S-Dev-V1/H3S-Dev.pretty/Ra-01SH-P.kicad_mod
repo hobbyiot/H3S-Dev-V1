@@ -325,6 +325,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "76300e62-9bcf-43d6-90fd-b4fe4150ebe4")
 	)
 	(pad "17" thru_hole circle
@@ -333,6 +334,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "9189ce58-10ab-41d9-bd3b-02c500424767")
 	)
 	(pad "17" thru_hole circle
@@ -341,6 +343,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "2bf599b0-9ca8-4cd8-bd27-2ae389f9a499")
 	)
 	(pad "17" thru_hole circle
@@ -349,6 +352,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "8929cd88-a1dd-4deb-88a3-1ad2c55fc010")
 	)
 	(pad "17" thru_hole circle
@@ -357,6 +361,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "555fd3c0-48d0-4a2c-a386-6820b61f3b97")
 	)
 	(pad "17" smd roundrect
@@ -372,6 +377,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "d200feb8-6902-454a-8dd8-7f6a7ff50a3e")
 	)
 	(pad "17" thru_hole circle
@@ -380,6 +386,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "34ed09f5-275d-455e-ba2e-cd1cfd85cb16")
 	)
 	(pad "17" thru_hole circle
@@ -388,6 +395,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "6de7e374-9293-409e-bce1-9a3cf619717c")
 	)
 	(pad "17" thru_hole circle
@@ -396,6 +404,7 @@
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "198b4653-24ac-491f-934c-2b0c52e6412a")
 	)
 	(group ""
