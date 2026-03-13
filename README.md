@@ -1,7 +1,12 @@
 # Our new H3S-Dev board design
 
+Main components:
+### MCU  (U4):  ESP-32-S3 with PSRAM
+### LoRa (U1): RA-01SH-P with Power amplifier
+### GNSS (U6): Optional mini module
+
 ## Work in progress...
-![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20WiP%2020260227.png)
+![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20WiP%2003.png)
 #
 ![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H2S%20M%20ESP32%20S3%20BB%2001.jpg)
 #
