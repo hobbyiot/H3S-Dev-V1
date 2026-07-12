@@ -6,7 +6,7 @@ Main components:
 ### GNSS (U6): Optional mini module
 
 ## Work in progress...
-![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20WiP%2003.png)
+![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20WiP%2020260712.png)
 #
 ![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H2S%20M%20ESP32%20S3%20BB%2001.jpg)
 #
