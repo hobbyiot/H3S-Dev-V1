@@ -5497,6 +5497,16 @@
 		)
 		(uuid "72ccc0ed-b2f4-4d08-b22b-8023ab1fecfe")
 	)
+	(text "ToDo:\nAdd another 5-12V\npower source,\ni.e. solar panel"
+		(exclude_from_sim no)
+		(at 50.546 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75dd8901-46df-4770-a815-87b4cdc85153")
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 281.94 136.398 0)
@@ -6659,6 +6669,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 147.32) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d3b7e4-8a76-4ccf-b858-3627d549e66e")
+	)
+	(wire
+		(pts
 			(xy 219.71 139.7) (xy 219.71 142.24)
 		)
 		(stroke
@@ -7649,6 +7669,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 175.26) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815e53ca-858a-4954-a6e1-b2b2248940e7")
+	)
+	(wire
+		(pts
 			(xy 127 102.87) (xy 187.96 102.87)
 		)
 		(stroke
@@ -8356,6 +8386,16 @@
 			(type default)
 		)
 		(uuid "b7642b29-bde8-4e56-b50a-cad3b9374cc2")
+	)
+	(wire
+		(pts
+			(xy 129.54 147.32) (xy 97.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9366486-10ec-4836-909e-e1c300f67cd4")
 	)
 	(wire
 		(pts
@@ -9227,6 +9267,16 @@
 		)
 		(uuid "feb47db0-15c2-40bc-9f98-9d3e9b6b12ad")
 	)
+	(label "SOLAR_SENSE"
+		(at 43.18 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "007f36f0-1236-4b1f-9263-0f3ee5cc2251")
+	)
 	(label "LoRa_BUS"
 		(at 208.28 114.3 0)
 		(effects
@@ -9307,6 +9357,16 @@
 		)
 		(uuid "35cd92c2-c3df-45ae-ab6c-a1c384d153f4")
 	)
+	(label "USBp_D-"
+		(at 101.6 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b805995-4f14-4537-bb1a-e558c9bcad3f")
+	)
 	(label "V5_SENSE"
 		(at 83.82 210.82 90)
 		(effects
@@ -9338,7 +9398,7 @@
 		(uuid "421139f8-d766-4069-829a-d6799843a182")
 	)
 	(label "V5_SENSE"
-		(at 118.11 144.78 0)
+		(at 115.57 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9408,7 +9468,7 @@
 		(uuid "5082f2cb-82e0-44fb-9c57-659ec556b273")
 	)
 	(label "BAT_SENSE"
-		(at 118.11 142.24 0)
+		(at 115.57 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9457,6 +9517,16 @@
 		)
 		(uuid "64e220e6-980c-4039-904b-bb8d32c8f81c")
 	)
+	(label "USBp_D+"
+		(at 100.33 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cbb84ce-a168-4d88-9f8a-57c35f95b8a2")
+	)
 	(label "SCL"
 		(at 275.59 109.22 180)
 		(effects
@@ -9476,6 +9546,16 @@
 			(justify left bottom)
 		)
 		(uuid "7135ad38-a688-4546-a33b-3ce774747587")
+	)
+	(label "USBc_D-"
+		(at 127 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "797a7c07-6f31-40d5-9e6e-369ad0ebba38")
 	)
 	(label "DIO1"
 		(at 254 83.82 0)
@@ -9567,6 +9647,16 @@
 		)
 		(uuid "96cb5074-0582-43d0-8ddb-8ea213290d5d")
 	)
+	(label "SOLAR_SENSE"
+		(at 115.57 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b145d37-1374-4d09-9243-dbe0b28c5685")
+	)
 	(label "DIO1"
 		(at 163.83 162.56 0)
 		(effects
@@ -9636,6 +9726,16 @@
 			(justify left bottom)
 		)
 		(uuid "ae433755-caa6-48c1-80e6-cd5b812c4245")
+	)
+	(label "USBc_D+"
+		(at 120.65 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9888715-5239-4af7-acf0-c95647e20232")
 	)
 	(label "MISO"
 		(at 163.83 129.54 0)
