@@ -8029,6 +8029,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 73.66) (xy 372.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4f6179-64ed-4bed-a7bf-d75a9b6957a2")
+	)
+	(wire
+		(pts
 			(xy 154.94 185.42) (xy 154.94 189.23)
 		)
 		(stroke
@@ -8046,6 +8056,16 @@
 			(type default)
 		)
 		(uuid "9c02d0d9-701e-42cf-a6c0-bb775711b561")
+	)
+	(wire
+		(pts
+			(xy 372.11 92.71) (xy 372.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc6d192-bd44-468f-9c6f-94788ac98a4d")
 	)
 	(wire
 		(pts
@@ -14688,6 +14708,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 372.11 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a82d3bc-146b-4202-9b90-e060aa0f01df")
+		(property "Reference" "#PWR049"
+			(at 372.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcc5186f-980e-4f45-89ee-b7d60ed6d811")
+		)
+		(instances
+			(project "H3S-Dev-V1"
+				(path "/bea38324-05bc-47f3-9040-a69798280d79"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 144.78 139.7 0)
 		(mirror y)
@@ -17107,6 +17193,141 @@
 			(project "H3S-Dev-V1"
 				(path "/bea38324-05bc-47f3-9040-a69798280d79"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 372.11 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc63ea9c-dff8-46e9-80be-1f8e41fa6681")
+		(property "Reference" "#PWR048"
+			(at 372.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 372.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 372.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "234bd242-6c92-4637-90c0-235d488c5fb5")
+		)
+		(instances
+			(project "H3S-Dev-V1"
+				(path "/bea38324-05bc-47f3-9040-a69798280d79"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 372.11 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "decc7ad2-cbd2-4273-8c43-cf54ad2ddb76")
+		(property "Reference" "C14"
+			(at 368.554 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 368.046 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 373.0752 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 372.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee97e50-70c6-48e4-8fdb-0f9c0835be9b")
+		)
+		(pin "2"
+			(uuid "69b48c2b-116b-4272-abf5-444e859ce275")
+		)
+		(instances
+			(project "H3S-Dev-V1"
+				(path "/bea38324-05bc-47f3-9040-a69798280d79"
+					(reference "C14")
 					(unit 1)
 				)
 			)
