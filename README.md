@@ -1,13 +1,21 @@
-# Our new H3S-Dev board design
+# H3S-Dev board for building Meshtastic nodes
 
-Main components:
-### MCU  (U4):  ESP-32-S3 with PSRAM
-### LoRa (U1): RA-01SH-P with Power amplifier
-### GNSS (U6): Optional mini module
+### The new H3S-Dev design is almost ready for prototyping, now waiting for your comments (Check HW folder for Schematic and PCB).
 
-## Work in progress...
-![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20WiP%2020260712.png)
+### Specifications:
+-  MCU:  ESP32-S3 with 8MB PSRAM
+-  LoRa: RA-01SH-P with Power amplifier
+-  GNSS: L96-M33 or similar
+-  Power: USB-C and additional input (for example solar source) with separate sensing
+-  LiPo battery management
+-  I2C extension slots and soldering area
+-  Credit card size 2-layer PCB
+-  KiCad design open source hardware
 #
-![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H2S%20M%20ESP32%20S3%20BB%2001.jpg)
+
+### As a successor of our recent [H2S-Dev board](https://github.com/hobbyiot/LoRa-Nodes) the new hardware is compatible with both Meshtastic and Helium networks, ready to setup a simple node, sensor or tracker of your choice!
+
 #
-Here is our new development board design. It will include ESP32 S3 with PSRAM, LoRa module, several powering options as well as a wide prototyping area. As a successor of my recent H2S-Dev board the new hardware will be compatible with Helium and Meshtastic networks, ready to develop a simple node, sensor or even more!
+![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20PCB%203D%20Almost.png)
+#
+
