@@ -10369,6 +10369,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c088484-cd77-434c-9eca-4fe3a8eb6d16")
 		)
@@ -10505,6 +10523,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 269.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 269.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e6e84aa-edf9-4aad-987b-41e37a5ae652")
 		)
@@ -10566,6 +10602,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 229.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 229.87 146.05 0)
 			(effects
 				(font
@@ -10636,6 +10690,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 107.95 219.71 0)
 			(effects
 				(font
@@ -10844,6 +10916,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 295.91 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 295.91 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb4351d3-70c3-4b6c-840f-48b5d035e154")
 		)
@@ -10979,6 +11069,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 373.38 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 373.38 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2170e2a-6b5e-439a-9ab1-222da05539a9")
 		)
@@ -11048,6 +11156,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 294.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 294.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76f4e03d-0599-45b5-a593-51a6bb6bb948")
 		)
@@ -11109,6 +11235,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 240.03 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 240.03 212.09 0)
 			(effects
 				(font
@@ -11253,6 +11397,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 313.69 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 313.69 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "H3S-Dev-V1"
 				(path "/bea38324-05bc-47f3-9040-a69798280d79"
@@ -11320,6 +11482,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 123.19 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 123.19 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,6 +11576,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 247.65 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 247.65 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb257b3f-cbf2-473b-a124-dc6e2c0e1ca1")
 		)
@@ -11455,7 +11653,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" "Diode Schottky 1N5819 40V 1A SMD SOD123F LCSCPN C82544 P/N 1N5819HW1-7-F"
+			(at 167.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 167.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1N5819HW1-7-F"
 			(at 167.64 189.23 0)
 			(effects
 				(font
@@ -11484,7 +11700,7 @@
 		(at 167.64 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -11526,6 +11742,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 167.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 167.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 167.64 181.61 0)
 			(effects
 				(font
@@ -11733,6 +11967,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 115.57 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 115.57 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c863b7f-c5f1-4863-8b28-6c864f187ad0")
 		)
@@ -11802,6 +12054,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54966657-d00a-4515-9eee-2b3a7f85d61f")
 		)
@@ -11863,6 +12133,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 271.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 271.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 271.78 146.05 0)
 			(effects
 				(font
@@ -12064,7 +12352,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "U.FL Coaxial Connector SMT 50 Ohm P/N U.FL-R-SMT-1(10)"
+			(at 273.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 273.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "U.FL-R-SMT-1(10)"
 			(at 273.05 64.77 0)
 			(effects
 				(font
@@ -12142,6 +12448,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 382.27 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 382.27 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f270548c-fbb2-4987-8f57-a8894bbb21b9")
 		)
@@ -12204,6 +12528,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 313.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 313.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 313.69 229.87 0)
 			(effects
 				(font
@@ -12276,6 +12618,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e8a11af-4186-450c-87c7-611eb67041aa")
 		)
@@ -12340,6 +12700,24 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "USBLC6-2SC6"
 			(at 92.71 127 0)
 			(effects
 				(font
@@ -12430,6 +12808,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a4f4fdd5-6d17-42cc-a92b-828c6ed34256")
 		)
@@ -12502,6 +12898,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 269.24 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 269.24 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12633,7 +13047,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-5"
+		(property "Description" "Charger Li-Ion Battery 800mA SMD SOT23-5 PN BL4054B"
+			(at 134.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LT"
+			(at 134.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 134.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "BL4054B"
 			(at 134.62 212.09 0)
 			(effects
 				(font
@@ -12720,6 +13161,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 62.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 62.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c132b85-fe3d-4ce4-960f-70a6d3e2c653")
 		)
@@ -12779,8 +13238,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor 2.2uH 30% 2.19A 54mOhm SMD VLCF4020 LCSCPN C136245"
 			(at 210.82 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 210.82 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LCSCPN C136245"
+			(at 210.82 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,6 +13335,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 83.82 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 83.82 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5961ddb9-9b22-4d1e-9f1e-2f7ba58ca648")
 		)
@@ -12920,6 +13415,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 123.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 123.19 219.71 0)
 			(effects
 				(font
@@ -13056,7 +13569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "L96 is a concurrent multi-GNSS receiver module with embedded chip antenna. With 33 tracking channels, 99 acquisition channels and 210 PRN channels, L96 supports concurrent reception of up to three GNSS systems _GPS+GLONASS+Galileo_"
+		(property "Description" "Multi-GNSS receiver module with embedded chip antenna"
 			(at 330.2 109.22 0)
 			(effects
 				(font
@@ -13066,7 +13579,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Quectel Wireless Solutions Co., Ltd"
+		(property "MF" "Quectel"
 			(at 330.2 109.22 0)
 			(effects
 				(font
@@ -13113,6 +13626,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 330.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "L96-M33"
+			(at 330.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13338,6 +13869,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 288.29 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 288.29 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2faa813f-fcae-4ae5-86c6-cd30c64c0728")
 		)
@@ -13399,6 +13948,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 167.64 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 167.64 222.25 0)
 			(effects
 				(font
@@ -13537,6 +14104,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 313.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 313.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 313.69 212.09 0)
 			(effects
 				(font
@@ -13806,6 +14391,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 231.14 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 231.14 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5cfc5049-4a1c-4f80-8aa6-229ea0d287f2")
 		)
@@ -13865,7 +14468,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" "Diode Schottky 1N5819 40V 1A SMD SOD123F LCSCPN C82544 P/N 1N5819HW1-7-F"
+			(at 62.23 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 62.23 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1N5819HW1-7-F"
 			(at 62.23 181.61 0)
 			(effects
 				(font
@@ -13953,6 +14574,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 367.03 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 367.03 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da3c9608-712d-4466-8c0a-6b8485a11041")
 		)
@@ -14015,6 +14654,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 100.33 118.11 0)
 			(effects
 				(font
@@ -14092,6 +14749,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 199.39 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 199.39 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "434d2f17-ea00-4c97-9bb1-2b77cedbd69a")
 		)
@@ -14153,8 +14828,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Switch Tactile Top Actuated SPST N.O. LCSCPN C2689642 P/N PTS636SM43JSMTRLFS"
 			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 240.03 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTS636SK25SMTRLFS"
+			(at 240.03 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,6 +14990,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 288.29 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 288.29 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad8c657d-ce73-498f-b8ac-3d631dde6853")
 		)
@@ -14432,6 +15143,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 373.38 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 373.38 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e5e91e4-70bb-4757-9f6e-3ac49bb55d35")
 		)
@@ -14502,6 +15231,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 97.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 97.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5393e192-ab95-4bba-8b0a-be3a58c95ff0")
 		)
@@ -14562,6 +15309,24 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Mixed"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 43.18 127 0)
 			(effects
 				(font
@@ -14684,6 +15449,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 295.91 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 295.91 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00b20ef2-4796-4422-b19c-60e03e921543")
 		)
@@ -14746,6 +15529,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 256.54 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 256.54 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14822,6 +15623,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81cc8dd4-ddbe-4686-a1f3-b15cb3c68030")
 		)
@@ -14883,6 +15702,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 68.58 148.59 0)
 			(effects
 				(font
@@ -14961,6 +15798,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/bea38324-05bc-47f3-9040-a69798280d79"
@@ -15014,7 +15869,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" "Diode Schottky 1N5819 40V 1A SMD SOD123F LCSCPN C82544 P/N 1N5819HW1-7-F"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "1N5819HW1-7-F"
 			(at 92.71 165.1 0)
 			(effects
 				(font
@@ -15356,6 +16229,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "712fef55-ba54-46ad-80a8-22c67336b639")
 		)
@@ -15425,6 +16316,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 382.27 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 382.27 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5018711a-e4b6-4a48-9159-2691445558f2")
 		)
@@ -15486,6 +16395,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 49.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 49.53 219.71 0)
 			(effects
 				(font
@@ -15622,6 +16549,33 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Espressif"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ESP32-S3-WROOM-1U-N16R8"
 			(at 144.78 139.7 0)
 			(effects
 				(font
@@ -15949,6 +16903,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "THT"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00066744-4a3d-4645-8e73-2d22b62ac57b")
 		)
@@ -16091,6 +17063,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 123.19 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 123.19 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fee76ac-8e35-40fc-a6b5-1a7aa32aa02a")
 		)
@@ -16218,6 +17208,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -16419,8 +17427,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC/DC Regulator Step Down Synchronous 1A 1.5MHz P/N SY8089AAAC"
 			(at 184.15 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 184.15 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Silergy"
+			(at 184.15 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SY8089AAAC"
+			(at 184.15 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16498,6 +17533,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 261.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -16643,6 +17696,33 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Ai-Thinker"
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "Ra-01SH-P"
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "dd2915de-8660-4057-9c11-dc31b18058f5")
 		)
@@ -16758,6 +17838,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 367.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 367.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5163eb29-fd41-40e2-9bd6-b70171d55d9e")
 		)
@@ -16820,6 +17918,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 59.69 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 59.69 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 59.69 219.71 0)
 			(effects
 				(font
@@ -16964,6 +18080,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 49.53 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 49.53 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01f4ec3f-58ce-404a-b1bb-4ebf884e9ccb")
 		)
@@ -17025,6 +18159,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 97.79 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 97.79 219.71 0)
 			(effects
 				(font
@@ -17300,6 +18452,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 175.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 175.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43c4b5c4-e9b2-46ae-ae2e-26c9a67a18d3")
 		)
@@ -17361,6 +18531,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 73.66 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 73.66 219.71 0)
 			(effects
 				(font
@@ -17439,6 +18627,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "THT"
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6841f0a5-5bb4-4f20-9797-321632ca4094")
 		)
@@ -17508,6 +18714,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 295.91 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 295.91 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10805ac1-2e33-4737-8ee3-84ed70c496a6")
 		)
@@ -17570,6 +18794,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 73.66 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 73.66 207.01 0)
 			(effects
 				(font
@@ -17846,6 +19088,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "THT"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6e023ab-8f7e-4ea2-8052-1a06a2965160")
 		)
@@ -17986,6 +19246,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 123.19 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 123.19 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c029346-182e-44d9-9f65-c6f89f2323e8")
 		)
@@ -18047,6 +19325,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 219.71 132.08 0)
 			(effects
 				(font
@@ -18190,6 +19486,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c91e6e5e-23a2-4e19-8173-ca96db0e6aa4")
 		)
@@ -18325,6 +19639,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 372.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 372.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ee97e50-70c6-48e4-8fdb-0f9c0835be9b")
 		)
@@ -18452,6 +19784,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 223.52 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 223.52 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 223.52 212.09 0)
 			(effects
 				(font
@@ -18722,8 +20072,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+		(property "Description" "MOSFET P-Channel DMP3099L 30V 65mOhm SMD SOT-23-3 P/N DMP3099L-7 / WPM2015-3"
 			(at 154.94 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 154.94 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "DMP3099L-7 / WPM2015-3"
+			(at 154.94 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18862,6 +20230,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -19139,6 +20525,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 288.29 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 288.29 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "191bb9d2-0cb4-4068-889f-3ee5ec96755c")
 		)
@@ -19201,6 +20605,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "THT"
+			(at 36.83 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 36.83 196.85 0)
 			(effects
 				(font
@@ -19336,8 +20758,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Switch Tactile Top Actuated SPST N.O. LCSCPN C2689642 P/N PTS636SM43JSMTRLFS"
 			(at 281.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 281.94 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTS636SK25SMTRLFS"
+			(at 281.94 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19406,6 +20846,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 181.61 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 181.61 222.25 0)
 			(effects
 				(font
@@ -19617,6 +21075,24 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a01449f7-f9d0-439f-88f9-504ffab538f7")
 		)
@@ -19679,6 +21155,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 288.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 288.29 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 288.29 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19815,6 +21309,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 106.68 118.11 0)
 			(effects
 				(font
