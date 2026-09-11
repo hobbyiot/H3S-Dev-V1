@@ -1,6 +1,11 @@
 # H3S-Dev board for building Meshtastic nodes
 
-### The new H3S-Dev design is almost ready for prototyping, now waiting for your comments (Check HW folder for Schematic and PCB).
+### The new H3S-Dev design is now in pilot production!
+
+#
+## This project is being sponsored by [PCBWay](https://www.pcbway.com/)
+### They offer a turnkey service to manufacture and assemble your printed circuit boards! The whole operation is fast and reliable since every single step is agreed between the customer and the responsible people from the factory. Every one detail is discussed as the components and materials used are agreed on at a high professional level.
+#
 
 ### Specifications:
 -  MCU:  ESP32-S3 with 8MB PSRAM
