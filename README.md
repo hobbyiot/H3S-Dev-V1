@@ -21,6 +21,7 @@
 ### As a successor of our recent [H2S-Dev board](https://github.com/hobbyiot/LoRa-Nodes) the new hardware is compatible with both Meshtastic and Helium networks, ready to setup a simple node, sensor or tracker of your choice!
 
 #
-![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev%20PCB%203D%20Almost.png)
+![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Dev-V1%20Assembly%20Drawing.png)
 #
-
+### Circuit schematic:
+[![](HW/H3S-Dev-V1/H3S-Dev-V1_Schematic.svg)](HW/H3S-Dev-V1/H3S-Dev-V1_Schematic.pdf)
