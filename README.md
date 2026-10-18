@@ -1,10 +1,21 @@
 # H3S-Dev board for building Meshtastic nodes
 
-### The new H3S-Dev design is now in pilot production!
+### The new H3S-Dev design is alive!
 
 #
-## This project is being sponsored by [PCBWay](https://www.pcbway.com/)
+## This project was sponsored by [PCBWay](https://www.pcbway.com/)
 ### They offer a turnkey service to manufacture and assemble your printed circuit boards! The whole operation is fast and reliable since every single step is agreed between the customer and the responsible people from the factory. Every one detail is discussed as the components and materials used are agreed on at a high professional level.
+
+## Arrival and first impressions
+
+All prototypes came as usual from that manufacturer - individually and safely packed within the parcel - directly from the factory!
+
+H3S-Dev board     |  Unpacking
+:-------------------------:|:-------------------------:
+![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-Pack.jpg) | ![](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/Pics/H3S-New.jpg)
+
+### ![Read more ...](https://github.com/hobbyiot/H3S-Dev-V1/blob/main/SPONSORSHIP.md)
+
 #
 
 ### Specifications:
