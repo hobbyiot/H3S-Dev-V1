@@ -1,0 +1,122 @@
+name: Meshtastic firmware (H3S-Dev)
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Meshtastic tag to try (empty = latest stable release)"
+        required: false
+  pull_request:
+    paths:
+      - "Meshtastic/**"
+      - ".gitmodules"
+      - ".github/workflows/meshtastic-firmware.yml"
+  push:
+    branches: [main]
+    paths:
+      - "Meshtastic/**"
+      - ".gitmodules"
+      - ".github/workflows/meshtastic-firmware.yml"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  FW: Meshtastic
+  PIO_ENV: h3s-dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Pick Meshtastic version
+        id: ver
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          INPUT_TAG: ${{ inputs.tag }}
+        run: |
+          CURRENT=$(cat "$FW/UPSTREAM_TAG")
+          TARGET=$CURRENT
+          if [ "$EVENT" = schedule ] || [ "$EVENT" = workflow_dispatch ]; then
+            TARGET=${INPUT_TAG:-$(gh api repos/meshtastic/firmware/releases/latest --jq .tag_name)}
+          fi
+          BUMP=false; [ "$TARGET" != "$CURRENT" ] && BUMP=true
+          BUILD=true; [ "$EVENT" = schedule ] && [ "$BUMP" = false ] && BUILD=false
+          echo "Pinned: $CURRENT  Target: $TARGET  Bump: $BUMP  Build: $BUILD"
+          {
+            echo "current=$CURRENT"; echo "target=$TARGET"
+            echo "bump=$BUMP";       echo "build=$BUILD"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Switch upstream to ${{ steps.ver.outputs.target }}
+        if: steps.ver.outputs.bump == 'true'
+        env:
+          TARGET: ${{ steps.ver.outputs.target }}
+        run: |
+          git -C "$FW/upstream" fetch --depth=1 --force origin tag "$TARGET"
+          git -C "$FW/upstream" checkout --quiet "$TARGET"
+          git -C "$FW/upstream" submodule update --init --recursive --depth=1
+          echo "$TARGET" > "$FW/UPSTREAM_TAG"
+
+      - uses: actions/setup-python@v5
+        if: steps.ver.outputs.build == 'true'
+        with:
+          python-version: "3.12"
+
+      - uses: actions/cache@v4
+        if: steps.ver.outputs.build == 'true'
+        with:
+          path: |
+            ~/.platformio
+            ~/.cache/pip
+          key: pio-${{ steps.ver.outputs.target }}
+          restore-keys: pio-
+
+      - name: Build
+        if: steps.ver.outputs.build == 'true'
+        run: |
+          pip install -U platformio
+          sh "$FW/link_variant.sh"
+          pio run -d "$FW/upstream" -e "$PIO_ENV"
+          mkdir -p dist
+          cp "$FW/upstream/.pio/build/$PIO_ENV/"firmware*.bin dist/
+          ls -l dist
+
+      - uses: actions/upload-artifact@v4
+        if: steps.ver.outputs.build == 'true'
+        with:
+          name: h3s-dev-meshtastic-${{ steps.ver.outputs.target }}
+          path: dist/
+
+      - name: Open PR with the new pin
+        if: steps.ver.outputs.bump == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: meshtastic/${{ steps.ver.outputs.target }}
+          add-paths: |
+            Meshtastic/upstream
+            Meshtastic/UPSTREAM_TAG
+          commit-message: "Meshtastic firmware -> ${{ steps.ver.outputs.target }}"
+          title: "Meshtastic firmware ${{ steps.ver.outputs.current }} -> ${{ steps.ver.outputs.target }}"
+          body: |
+            H3S-Dev builds on Meshtastic `${{ steps.ver.outputs.target }}`.
+            Binaries: see the artifacts of [this run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}).
+            Flash and test on the board before merging; merging publishes a release.
+
+      - name: Publish release
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: h3s-dev-meshtastic-${{ steps.ver.outputs.target }}
+          name: H3S-Dev - Meshtastic ${{ steps.ver.outputs.target }}
+          body: Meshtastic firmware `${{ steps.ver.outputs.target }}` built for H3S-Dev (env `h3s-dev`).
+          files: dist/*.bin
+          make_latest: true
