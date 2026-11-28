@@ -42,18 +42,13 @@ H3S-Dev runs the official [Meshtastic](https://meshtastic.org) firmware. Ready-t
 
 | File | Use it for | Flash address |
 |---|---|---|
-| `firmware-h3s-dev-<version>.factory.bin` | First flash or full erase | `0x0` |
-| `firmware-h3s-dev-<version>.bin` | OTA-style update (app only) | `0x10000` |
+| `firmware-h3s-dev-<version>.factory.bin` | Recommended for all flashing | `0x0` |
 
 Flash with esptool v5 (the board uses native USB; hold BOOT while plugging in if the port does not appear):
 
 ```sh
-# Full factory flash (erases everything)
-esptool --chip esp32s3 --port /dev/ttyACM0 erase-flash
-esptool --chip esp32s3 --port /dev/ttyACM0 write-flash 0x0 firmware-h3s-dev-<version>.factory.bin
-
-# App-only update (keeps settings)
-esptool --chip esp32s3 --port /dev/ttyACM0 write-flash 0x10000 firmware-h3s-dev-<version>.bin
+esptool --chip esp32s3 -p /dev/ttyACM0 -b 460800 erase-flash
+esptool --chip esp32s3 -p /dev/ttyACM0 -b 460800 write-flash 0x0 firmware-h3s-dev-<version>.factory.bin
 ```
 
 GNSS support is planned for a future release. Build instructions and details: [Meshtastic/README.md](Meshtastic/README.md).
